@@ -28,6 +28,7 @@ function getEmployees(listElement) {
     name: li.textContent.trim(),
     position: li.dataset.position || '',
     salary: parseSalary(li.dataset.salary),
+    age: parseSalary(li.dataset.age),
   }));
 }
 
